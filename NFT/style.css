@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(217, 54%, 11%);
+  font-size: 1.125rem;
+  font-family: "Outfit", sans-serif;
+  color: hsl(215, 51%, 70%);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 320px;
+  margin: 0 auto;
+}
+.container {
+  width: 100%;
+  padding: 1.125rem;
+  border-radius: 10px;
+  background-color: hsl(216, 50%, 16%);
+}
+.content {
+  position: relative;
+}
+.bold {
+  font-weight: 600;
+}
+hr {
+  border: 1px solid hsl(215, 32%, 27%);
+  width: 100%;
+}
+
+.content p:first-child {
+  background-color: red;
+}
+.main-para {
+  margin-bottom: 15px;
+}
+
+.icon-para {
+  display: inline-flex;
+  margin-bottom: 15px;
+}
+.icon-space {
+  color: hsl(178, 100%, 50%);
+  margin-right: 70px;
+  font-weight: 400;
+}
+.cube {
+  border-radius: 10px;
+  margin-bottom: 15px;
+  width: 100%;
+}
+.small-icon {
+  margin-right: 10px;
+}
+.avatar {
+  margin-right: 20px;
+
+  width: 30px;
+}
+.footer {
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+}
+.white-text {
+  color: hsl(0, 0%, 100%);
+}
+
+.footer span {
+  font-weight: 300;
+}
+
+.hover:hover {
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
+}
+
+.icon-view {
+  position: absolute;
+  top: 38%;
+  left: 41%;
+  opacity: 0;
+}
+.icon-view:hover {
+  cursor: pointer;
+  visibility: visible;
+  opacity: 0.9;
+}
+
+.cube-content {
+  position: relative;
+}
+
+.view-effect:hover {
+  cursor: pointer;
+  position: absolute;
+  height: 280px;
+  width: 100%;
+  position: absolute;
+  top: 10px;
+  opacity: 0.7;
+  background-color: aqua;
+  border-radius: 10px;
+}
+
+/* # Front-end Style Guide
+
+## Layout
+
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+## Colors
+
+### Primary
+
+- Soft blue: hsl(215, 51%, 70%)
+- Cyan: hsl(178, 100%, 50%)
+
+### Neutral
+
+- Very dark blue (main BG): hsl(217, 54%, 11%)
+- Very dark blue (card BG): hsl(216, 50%, 16%)
+- Very dark blue (line): hsl(215, 32%, 27%)
+- White: hsl(0, 0%, 100%)
+
+## Typography
+
+### Body Copy
+
+- Font size (paragraph): 18px
+
+### Font
+
+- Family: [Outfit](https://fonts.google.com/specimen/Outfit)
+- Weights: 300, 400, 600 */
